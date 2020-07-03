@@ -1,0 +1,70 @@
+@import url('https://rsms.me/inter/inter.css');
+
+:root {
+    background-color: #efefdf;
+    font-family: 'Inter', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+    html { font-family: 'Inter var', sans-serif; }
+}
+
+.content-divvy {
+    display: flex;
+}
+
+.faves {
+    min-width: 2em;
+}
+
+.icon {
+    font-size: 2em;
+}
+
+.home-icon a, .home-icon a:visited {
+    color: burlywood;
+}
+
+.fave-icon a, .fave-icon a:visited {
+    color: burlywood;
+}
+
+.main {
+    flex: 5;
+}
+
+.header {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    height: 88vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.breed-data {
+    padding: 0.5em;
+}
+
+.detail-breed-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details-back a, .details-back a:visited {
+    color: darkgrey;
+}
+
+.details-fave a, .details-fave a:visited {
+    color: lightskyblue;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}

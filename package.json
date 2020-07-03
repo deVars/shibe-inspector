@@ -1,0 +1,33 @@
+{
+  "name": "shibe-inspector",
+  "version": "0.2.0",
+  "description": "inspect your shibes and chill with the good bois",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "~7",
+    "jest": "~26"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devars/shibe-inspector.git"
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "plugins": ["@babel/plugin-transform-modules-commonjs"]
+      }
+    }
+  },
+  "author": "deVars",
+  "license": "BSD-3Clause",
+  "bugs": {
+    "url": "https://github.com/devars/shibe-inspector/issues"
+  },
+  "homepage": "https://github.com/devars/shibe-inspector#readme"
+}
